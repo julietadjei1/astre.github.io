@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f9f9f9;
+  color: #111;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+  background: #f9f9f9;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+nav a {
+  margin-left: 32px;
+  text-decoration: none;
+  color: #111;
+  font-size: 0.9rem;
+}
+
+section {
+  padding: 140px 60px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-top: 220px;
+}
+
+.hero h1 {
+  font-size: 3.8rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 420px;
+}
+
+.hero-image,
+.campaign-image {
+  background: #ddd;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collection h2 {
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.grid div {
+  padding: 60px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.philosophy {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.launch {
+  text-align: center;
+}
+
+#countdown {
+  font-size: 1.4rem;
+  margin: 20px 0 40px;
+}
+
+.launch input {
+  padding: 14px;
+  width: 260px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 14px 36px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+  padding-bottom: 60px;
+}
